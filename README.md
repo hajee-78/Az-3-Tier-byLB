@@ -5,7 +5,8 @@ Web Tier, Application Tier, and Data Tier are the three logical layers into whic
 
 **High-level Architecture Diagram**
 
-![image](https://github.com/hajee-78/Azure-3-Tier-Stack/assets/55215524/43a02900-c0ff-48c8-8295-a44a8928207d)
+![image](https://github.com/hajee-78/Azure-3-Tier-Stack/assets/55215524/4e987958-e151-45ab-91f7-9d488ea643ea)
+
 
 
 
