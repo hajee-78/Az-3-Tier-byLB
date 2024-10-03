@@ -7,6 +7,8 @@ Web Tier, Application Tier, and Data Tier are the three logical layers into whic
 
 Provision a 3-tier application with terraform consisting of 1 Resource Group, 3 load balancers, and 6 virtual machines. In detail, we are creating three subnets namely Web, App and DB then control the traffic between subnets thorugh network security groups. We are deploying virtual machines under availability sets to achieve High Availability. Public and Internal load balancers will manage the incoming traffic to Web, App and DB subets respectively. The Bastion host is required to access and manage the virtual machines since the RDP traffic is blocked in all subnets.
 
+Note :  You can adjust the port number in network security groups for each subnet according to your requirement. 
+
 **High-level Architecture Diagram**
 
 ![image](https://github.com/hajee-78/Azure-3-Tier-Stack/assets/55215524/b106220c-bd82-48cf-b6cf-aea76e544c0b)
