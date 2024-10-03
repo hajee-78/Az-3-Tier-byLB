@@ -15,9 +15,11 @@ Provision a 3-tier application with terraform consisting of 1 Resource Group, 3 
 
 The terraform code structure as follows
 
-|-- main.tf // /n
-|-- vars.tf // /n
-|-- terraform.tfvars // /n
+|-- main.tf 
+
+|-- vars.tf 
+
+|-- terraform.tfvars 
 
 
 
