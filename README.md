@@ -11,6 +11,13 @@ Provision a 3-tier application with terraform consisting of 1 Resource Group, 3 
 
 ![image](https://github.com/hajee-78/Azure-3-Tier-Stack/assets/55215524/b106220c-bd82-48cf-b6cf-aea76e544c0b)
 
+** Solution **
+
+The terraform code structure as follows
+
+|-- main.tf 
+|-- vars.tf
+|-- terraform.tfvars
 
 
 
