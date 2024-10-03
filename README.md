@@ -15,11 +15,13 @@ Provision a 3-tier application with terraform consisting of 1 Resource Group, 3 
 
 The terraform code structure as follows
 
-|-- main.tf // Contains the resource blocks that instcruct the resources to be created in the target cloud provider. 
+|-- main.tf // Contains the resource blocks that define the resources to be created in the target cloud provider. 
 
-|-- vars.tf 
+|-- vars.tf // Variables declaration used in the resource block.
 
-|-- terraform.tfvars 
+|-- terraform.tfvars // Declare the environment specific default values for variables.
+
+
 
 
 
