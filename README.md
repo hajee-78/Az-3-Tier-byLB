@@ -5,7 +5,7 @@ Web Tier, Application Tier, and Data Tier are the three logical layers into whic
 
 **Goal**
 
-Provision a 3-tier application with terraofrm consisting of 1 Resource Group, 3 load balancers, and 6 virtual machines. 
+Provision a 3-tier application with terraofrm consisting of 1 Resource Group, 3 load balancers, and 6 virtual machines. In detail, we are creating three subnets namely Web, App and DB then control the traffic between subnets thorugh network security groups. We are deploying virtual machines under availability sets to achieve High Availability. Public and Internal load balancers will manage the incoming traffic to Web, App and DB subets respectively. 
 
 **High-level Architecture Diagram**
 
