@@ -21,7 +21,7 @@ The terraform code structure as follows
 
 |-- terraform.tfvars // Declare the environment specific default values for variables.
 
-#Deployment Steps
+# Deployment Steps
 
 **terraform init** - To initializes a working directory containing configuration files and installs plugins for required providers.
 
