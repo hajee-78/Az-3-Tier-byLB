@@ -260,7 +260,7 @@ resource "azurerm_network_security_group" "appnsg" {
     access                     = "Allow"
     protocol                   = "Tcp"
     source_port_range          = "*"
-    destination_port_range     = "3389"
+    destination_port_range     = "443"
     source_address_prefix      = "*"
     destination_address_prefix = "192.168.2.0/24"
   }
@@ -312,15 +312,15 @@ resource "azurerm_network_interface_backend_address_pool_association" "APPBE_nic
 resource "azurerm_lb_probe" "APPFE_lb_probe1" {
   loadbalancer_id = azurerm_lb.InternalLB1.id
   name            = "FE_lb_probe"
-  port            = 3389
+  port            = 443
 }
 
 resource "azurerm_lb_rule" "APPFE_lb_rule1" {
   loadbalancer_id                = azurerm_lb.InternalLB1.id
   name                           = "FE_lb_rule"
   protocol                       = "Tcp"
-  frontend_port                  = 3389
-  backend_port                   = 3389
+  frontend_port                  = 443
+  backend_port                   = 443
   disable_outbound_snat          = true
   frontend_ip_configuration_name = "WebTierLBIP"
   probe_id                       = azurerm_lb_probe.APPFE_lb_probe1.id
