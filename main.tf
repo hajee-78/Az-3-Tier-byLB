@@ -362,7 +362,7 @@ resource "azurerm_windows_virtual_machine" "dbtier" {
     sku       = "2022-Datacenter"
     version   = "latest"
   }
-  admin_username = "administrator2"
+  admin_username = "administrator3"
   admin_password = "Az@3TierConfig1234"
 }
 
