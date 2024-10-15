@@ -11,10 +11,10 @@ provider "azurerm" {
   features {
 
   }
-  subscription_id = "758c8dd5-6fc8-40fb-8b02-58f1d68a48cb"
-  tenant_id       = "49fd9b9e-6e82-4b5f-97bf-354ee77f1b32"
-  client_id       = "4e556fa1-914b-4949-b17e-3ffab1f0ea0e"
-  client_secret   = "PhA8Q~.VPMnQ7vYnmgeUcQmspWwDG1kB2uLqHbmW"
+  subscription_id = "your-subscription-id"
+  tenant_id       = "your-tenant-id"
+  client_id       = "your-client-id"
+  client_secret   = "your-client-secret"
 }
 
 resource "azurerm_resource_group" "dev" {
