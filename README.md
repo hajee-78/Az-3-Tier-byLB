@@ -21,7 +21,7 @@ The terraform code structure as follows
 
 |-- vars.tf // Variables declaration used in the resource block.
 
-|-- terraform.tfvars // Declare the environment specific default values for variables
+|-- terraform.tfvars // Declare the environment specific default values for variables.
 
 # Deployment Steps
 
