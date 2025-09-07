@@ -28,9 +28,16 @@ Bastion Host (for secure VM access since RDP is blocked externally)
 
 🚀 Deployment Steps
 
-terraform init    # Initialize provider plugins & backend
+terraform init    # Initialize provider plugins & backend                    
+
+
 terraform fmt     # Format code for readability
+
+
 terraform plan    # Preview changes before applying
+
+
+
 terraform apply   # Deploy infrastructure
 
 
