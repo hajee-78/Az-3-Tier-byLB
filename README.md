@@ -22,21 +22,20 @@ Bastion Host (for secure VM access since RDP is blocked externally)
 🏗️ Code Structure
 
 |-- main.tf          # Core Terraform configuration (resources)
+
 |-- variable.tf      # Variables declaration
+
 |-- terraform.tfvars # Environment-specific values
+
 |-- README.md        # Documentation
 
 🚀 Deployment Steps
 
 terraform init    # Initialize provider plugins & backend                    
 
-
 terraform fmt     # Format code for readability
 
-
 terraform plan    # Preview changes before applying
-
-
 
 terraform apply   # Deploy infrastructure
 
