@@ -39,6 +39,18 @@ terraform plan    # Preview changes before applying
 
 terraform apply   # Deploy infrastructure
 
+⚙️ Customization
+
+Adjust NSG rules in main.tf to open only the required ports (e.g., 80 for Web, 443 for App, 1433 for DB).
+Update terraform.tfvars for region, VM sizes, or custom tags.
+
+📌 Goal
+
+This project demonstrates a scalable, secure, and modular 3-tier architecture in Azure using Infrastructure as Code (IaC) principles.
+It can be extended further with:
+Azure Monitor / Log Analytics integration
+VNet Peering with hub-spoke topology
+Auto-scaling with Virtual Machine Scale Sets (VMSS)
 
 
 
