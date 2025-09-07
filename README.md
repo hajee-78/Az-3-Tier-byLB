@@ -18,25 +18,20 @@ Bastion Host (for secure VM access since RDP is blocked externally)
 
 ![image](https://github.com/hajee-78/Azure-3-Tier-Stack/assets/55215524/b106220c-bd82-48cf-b6cf-aea76e544c0b)
 
-**Solution**
 
-The terraform code structure as follows
+🏗️ Code Structure
 
-|-- main.tf // Contains the resource blocks that define the resources to be created in the target cloud provider. 
+|-- main.tf          # Core Terraform configuration (resources)
+|-- variable.tf      # Variables declaration
+|-- terraform.tfvars # Environment-specific values
+|-- README.md        # Documentation
 
-|-- vars.tf // Variables declaration used in the resource block.
+🚀 Deployment Steps
 
-|-- terraform.tfvars // Declare the environment specific default values for variables.
-
-# Deployment Steps
-
-**terraform init** - To initializes a working directory containing configuration files and installs plugins for required providers.
-
-**terraform fmt** - To rewrite Terraform configuration files to a canonical format and style. This command applies a subset of the Terraform language style conventions, along with other minor adjustments for readability.
-
-**terraform plan** - The terraform plan command creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
-
-**terraform apply** - The terraform apply command executes the actions proposed in a Terraform plan to create, update, or destroy infrastructure.
+terraform init    # Initialize provider plugins & backend
+terraform fmt     # Format code for readability
+terraform plan    # Preview changes before applying
+terraform apply   # Deploy infrastructure
 
 
 
