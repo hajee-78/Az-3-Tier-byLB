@@ -16,7 +16,7 @@ The deployment consists of:
 - **Bastion Host** (for secure VM access since RDP is blocked externally)
 
 ### High-Level Diagram
-![Architecture](./architecture.png)
+![Architecture](./Azure3tierarch.png)
 
 ---
 
