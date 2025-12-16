@@ -3,7 +3,7 @@ Azure 3-Tier Architecture with Terraform
 This repository provisions a 3-tier application architecture in Azure using Terraform.
 The stack includes Web, Application, and Database tiers, each secured with Network Security Groups (NSGs) and balanced with Azure Load Balancers for high availability.
 
-🌐 Architecture Overiew
+🌐 Architecture Overview
 
 The deployment consists of:
 
